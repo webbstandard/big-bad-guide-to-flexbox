@@ -448,16 +448,22 @@ section#flex-wrap-section {
 }
 
 .flex-wrap-nowrap-parent-container {
+  display: flex;
+  flex-wrap: nowrap;
   /* place your code here */
   justify-content: space-evenly;
 }
 
 .flex-wrap-wrap-parent-container {
+  display: flex;
+  flex-wrap: wrap;
   /* place your code here */
   justify-content: space-evenly;
 }
 
 .flex-wrap-wrap-reverse-parent-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
   /* place your code here */
   justify-content: space-evenly;
 }
