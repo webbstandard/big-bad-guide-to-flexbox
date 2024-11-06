@@ -357,34 +357,44 @@ section {
 
 /* justify-content */
 section#justify-content-section {
-  /* place your code here */
   display: flex;
   justify-content: center;
+  /* place your code here */
 }
 
 .justify-content-center-parent-container {
-  /* place your code here */
   display: flex;
   justify-content: center;
+  /* place your code here */
 }
 
 .justify-content-space-between-parent-container {
+  display: flex;
+  justify-content: space-between;
   /* place your code here */
 }
 
 .justify-content-space-around-parent-container {
+  display: flex;
+  justify-content: space-around;
   /* place your code here */
 }
 
 .justify-content-space-evenly-parent-container {
+  display: flex;
+  justify-content: space-evenly;
   /* place your code here */
 }
 
 .justify-content-flex-start-parent-container {
+  display: flex;
+  justify-content: flex-start;
   /* place your code here */
 }
 
 .justify-content-flex-end-parent-container {
+  display: flex;
+  justify-content: flex-end;
   /* place your code here */
 }
 
@@ -397,6 +407,8 @@ section#align-items-section {
 
 .align-items-center-parent-container {
   /* place your code here */
+  display: flex;
+  align-items: center;
   justify-content: space-evenly;
 }
 
